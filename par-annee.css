@@ -1,0 +1,33 @@
+/* Titre principale */
+h1 {
+    background-color: rgb(0, 57, 138);
+    font-size: 2.5rem;
+    text-align: left;
+    color: #ffffff;
+    padding-left: 35px;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
+/* Reglages body */
+body {
+    background-color: rgb(82, 154, 213);
+    margin: 0;
+}
+
+/* Les differenst onglets COMPARER PAR_ANNEES PROFILE */
+a {
+    background-color: rgb(0, 57, 138);
+    color: white;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+
+/* Rajout d'un espace avant les noms des onglets  */
+.rajout_espace {
+    padding-left: 12px;
+    padding-right: 12px;
+}

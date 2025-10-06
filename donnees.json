@@ -1,0 +1,23 @@
+{
+  "ferrari599gto": {
+    "nom": "Ferrari 599 GTO",
+    "image": "https://res.cloudinary.com/dsxfn6o4q/image/upload/c_fill,g_center,h_467,w_624/v1702572634/spippxuhlwj6aobbxyto.jpg",
+    "chapitres": {
+      "Présentation générale": "La Ferrari 599 GTO, produite en 2010, est une édition limitée...",
+      "Moteur et performance": "Sous le capot, la 599 GTO cache un V12 atmosphérique...",
+      "Design et intérieur": "L’intérieur est sportif et épuré, avec des sièges baquets...",
+      "Tenue de route": "La voiture reste stable à haute vitesse et offre des sensations extrêmes...",
+      "Héritage": "Produite à seulement 600 exemplaires, elle est extrêmement recherchée..."
+    }
+  },
+  "bmwm3e92": {
+    "nom": "BMW M3 E92",
+    "image": "https://res.cloudinary.com/dsxfn6o4q/image/upload/...jpg",
+    "chapitres": {
+      "Présentation": "La BMW M3 E92 est une sportive allemande...",
+      "Moteur": "Elle est équipée d’un 6 cylindres en ligne atmosphérique...",
+      "Design": "L’extérieur est agressif mais élégant...",
+      "Conduite": "Très agile et précise dans les virages..."
+    }
+  }
+}
