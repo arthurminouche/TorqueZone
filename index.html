@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TorqueZone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="index.html">
+        <h1>TorqueZone</h1>
+    </a>
+    
+    <div id="section">
+      <a href="others/comparer.html"><span class="rajout_espace">Comparer</span></a>
+      <a href="others/par-annee.html"><span class="rajout_espace">Par années</span></a>
+      <a href="others/profil.html"><span class="rajout_espace">Profile</span></a>
+      <a href="others/donate.html"><span class="rajout_espace">Faire un don</span></a>
+    </div>
+    <p class="presentation">Bienvenue sur TorqueZone, ici vous trouverez toutes les informations que vous recherchez à propos d'un modèle de voiture.</p>
+   <form action="php/fiche.php" method="get">
+    <input type="search" name="modele" class="search_bar" placeholder=" Recherchez un modèle ...">
+    <input type="submit" class="bouton" value="Cherchez">
+</form>
+
+<script>
+    let pages = {};
+    
+    fetch('DATA/donnees.json')
+      .then(response => response.json())
+      .then(data => {
+        pages = data;
+      });
+
+    function ouvrirPage() {
+      let input = document.getElementById("searchInput").value.toLowerCase();
+        input = input.replace(/\s+/g, '');
+
+      if (pages[input]) {
+        window.location.href = pages[input]; 
+      } else {
+        alert("Impossible de trouver ce modèle.");
+      }
+    }
+  </script>
+</body>
+</html>
+
